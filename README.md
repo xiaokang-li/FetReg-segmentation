@@ -1,7 +1,7 @@
 # FetReg-segmentation
 Placental Vessel Segmentation and Registration in Fetoscopy
 
-## Group members
+### Group members
 
 - Chiara Di Vece, University College London
 - Juan Pablo de la Cruz Gutiérrez, Infineon Technologies AG
@@ -9,11 +9,11 @@ Placental Vessel Segmentation and Registration in Fetoscopy
 - Tiantian Li, University of California, Davis
 - Xiaokang Li, Fudan University
 
-## Supervisors
+### Supervisors
 - Sophia Bano & Francisco Vasconcelos
 - University College London
 
-### Introduction
+## Introduction
 
 **This repository is an implementation of Task 1.**
 
@@ -40,7 +40,7 @@ Contains:
 - Segmentation code ( UNet ) from [Bano et al. MICCAI2020]
 - Mosaicking visualisation code with sample example
 
-### Dataset
+## Dataset
 Placental Vessel Dataset: www.ucl.ac.uk/interventional-surgical-sciences/fetoscopy-placenta-data
 
 Segmentation dataset: video01, video02, video03, video04, video05, video06
@@ -60,7 +60,7 @@ For Cross Validation, you can split the dataset like this:
 | train | 02, 03, 04, 05, 06 |
 | vaid | 01 | 
 
-### Args in main_linux.py
+## Args in main_linux.py
 
 | parm | type | range |
 | :--- | :--- | :----- |
@@ -75,13 +75,13 @@ For Cross Validation, you can split the dataset like this:
 | test_image_index | int | 0, 1, 2 et al.|
 | GPU_index | str | “0”, “0, 1, 2”, et al.|
 
-### Pretrained models
+## Pretrained models
 
 Pretrained models can be downloaded here:  
 Baidu: https://pan.baidu.com/s/1p83y3MQiDnmgzoPIHsm4Yg password：5yym  
 Google Drive:
 
-### How to run this repository
+## How to run this repository
 
 For Windows:
 1. Download the dataset and split it into train, valid and test subsets. Put them in the folder 'data/'.
@@ -102,7 +102,7 @@ For Linux or MAC:
    python main_linux.py --mode predict --model_type Unet --encoder vgg16 --loss_type dice --lr 1e-4 --model_path models/ --GPU_index 0 --test_image_index 0
    ```
 
-### Reference
+## Reference
 - Segmentation models pytorch: https://github.com/qubvel/segmentation_models.pytorch
 - Bano, S., Vasconcelos, F., Shepherd, L.M., Vander Poorten , E., Vercauteren , T., Ourselin , S., David, A.L., Deprest , J. and Stoyanov,
 D., 2020, October. Deep placental vessel segmentation for fetoscopic mosaicking . In International Conference on Medical Image
