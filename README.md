@@ -115,7 +115,7 @@ Vercauteren , Sebastien Ourselin , Jan Deprest , and Danail Stoyanov. Deep learn
 expansion. International journal of computer assisted radiology and surgery 15, no. 11 (2020): 1807 1816.
 Szeliski , R., 2006. Image alignment and stitching: A tutorial . Foundations and Trends® in Computer Graphics and Vision, 2(1), pp.1-104.
 - Placental Vessel Dataset : www.ucl.ac.uk/interventional-surgical-sciences/fetoscopy-placenta-data
-- MICCAI2021 EndoVis challenges: https://endovis.grand challenge.org/
+- MICCAI2021 EndoVis challenges: https://endovis.grand-challenge.org/
 - MATLAB intensity based image registration: https://uk.mathworks.com/help/images/ref/imregister.html
 - Image Registration using Enhanced Correlation Coefficient (ECC) Maximization: https://learnopencv.com/image-alignment-ecc-in-opencv-c-python/
 - Pystackreg https://pypi.org/project/pystackreg/
